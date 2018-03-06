@@ -21,7 +21,7 @@ mkdir -p /usr/local/grafana/datasources/
 mkdir -p /usr/local/grafana/dashboards/
 cp /grafana-configuration/*-datasource.json /usr/local/grafana/datasources/
 cp /grafana-configuration/*-dashboard.json /usr/local/grafana/dashboards/
-
+cp /grafana-configuration/*.js /usr/local/grafana/dashboards/
 
 /usr/local/grafana_config.sh &
 /usr/local/start_server.sh
